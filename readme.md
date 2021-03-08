@@ -11,9 +11,5 @@ DB_DATABASE=YOUR_DB_NAME
 DB_USERNAME=YOUR_DB_USERNAME
 DB_PASSWORD=YOUR_DB_PASSWORD
 
-MIX_COMMETCHAT_API_KEY=YOUR_COMMETCHAT_API_KEY
-MIX_COMMETCHAT_APP_ID=YOUR_COMMETCHAT_APP_ID
-MIX_COMMETCHAT_GUID=YOUR_COMMETCHAT_GUID
-
 7. php artisan migrate
 8. Open the project in two separate terminal. From one of the terminals, run php artisan serve to start the backend and npm run watch from the other to start the frontend application in watch mode.
